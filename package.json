@@ -1,0 +1,11 @@
+{
+  "name": "merill-sponsors",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "sponsorkit"
+  },
+  "devDependencies": {
+    "sponsorkit": "^18.0.0"
+  }
+}
