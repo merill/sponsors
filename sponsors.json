@@ -1,5 +1,37 @@
 [
   {
+    "login": "CyberDrain",
+    "type": "Organization",
+    "name": "CyberDrain",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/149375131?v=4",
+    "linkUrl": "https://github.com/CyberDrain",
+    "tier": "Lead Sponsors"
+  },
+  {
+    "login": "AntonWilloughby",
+    "type": "User",
+    "name": "Anton W",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/116081795?u=a2fd0f2a1a0f786712bcb86a7fca00072d8cfd74&v=4",
+    "linkUrl": "https://github.com/AntonWilloughby",
+    "tier": "Company Sponsors"
+  },
+  {
+    "login": "goldjg",
+    "type": "User",
+    "name": "Graham Gold",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/43296126?u=aa7708ff07ca0136bd038bb4a8af036e0386ca21&v=4",
+    "linkUrl": "https://github.com/goldjg",
+    "tier": "Sponsors"
+  },
+  {
+    "login": "pslorenz",
+    "type": "User",
+    "name": "Steven Lorenz",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/3477436?u=268b71a0b45f1abe5649aba1af380e287734bdcc&v=4",
+    "linkUrl": "https://github.com/pslorenz",
+    "tier": "Sponsors"
+  },
+  {
     "login": "brianveldman",
     "type": "User",
     "name": "Brian Veldman",
