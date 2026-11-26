@@ -16,19 +16,19 @@
     "tier": "Company Sponsors"
   },
   {
-    "login": "goldjg",
-    "type": "User",
-    "name": "Graham Gold",
-    "avatarUrl": "https://avatars.githubusercontent.com/u/43296126?u=aa7708ff07ca0136bd038bb4a8af036e0386ca21&v=4",
-    "linkUrl": "https://github.com/goldjg",
-    "tier": "Sponsors"
-  },
-  {
     "login": "pslorenz",
     "type": "User",
     "name": "Steven Lorenz",
     "avatarUrl": "https://avatars.githubusercontent.com/u/3477436?u=268b71a0b45f1abe5649aba1af380e287734bdcc&v=4",
     "linkUrl": "https://github.com/pslorenz",
+    "tier": "Sponsors"
+  },
+  {
+    "login": "goldjg",
+    "type": "User",
+    "name": "Graham Gold",
+    "avatarUrl": "https://avatars.githubusercontent.com/u/43296126?u=aa7708ff07ca0136bd038bb4a8af036e0386ca21&v=4",
+    "linkUrl": "https://github.com/goldjg",
     "tier": "Sponsors"
   },
   {
