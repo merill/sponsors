@@ -2,7 +2,10 @@ import { writeFile } from 'node:fs/promises'
 import { defineConfig, tierPresets } from 'sponsorkit'
 import type { Sponsorship, Tier } from 'sponsorkit'
 
-// Tier thresholds mirror the GitHub Sponsors tiers: $5, $15, $100, $500 a month.
+// Tier thresholds mirror the GitHub Sponsors tiers: $5 and $15 a month for
+// individuals, $100 (Maester Cloud sponsor) and $2,000 (Maester sponsor) for companies.
+// Lead Sponsors ($500) is a retired GitHub tier, kept so existing sponsors on it
+// stay in place on the wall.
 // Anything under $15 (including custom amounts) lands in Backers.
 const tiers: Tier[] = [
   { title: 'Past Sponsors', monthlyDollars: -1, preset: tierPresets.xs },
@@ -10,6 +13,7 @@ const tiers: Tier[] = [
   { title: 'Sponsors', monthlyDollars: 15, preset: tierPresets.base },
   { title: 'Company Sponsors', monthlyDollars: 100, preset: tierPresets.large },
   { title: 'Lead Sponsors', monthlyDollars: 500, preset: tierPresets.xl },
+  { title: 'Maester Sponsors', monthlyDollars: 2000, preset: tierPresets.xl },
 ]
 
 function tierFor(monthlyDollars: number): string {
